@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salut tous le monde!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Screenshot_2023-11-05_at_07-37-39_Messenger_Facebook-removebg-preview.png">
+</head>
+<body>
+
+    <div class="menu">
+        <ul>
+            <li><a id="links" href="./AIHistory/index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Histoire D'AI
+            </a></li>
+            
+            <li><a id="links" href="./GEHistory/index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Histoire D'Editeur Génial
+            </a></li>
+            
+            <li><a id="links" href="./HowDoTheyContribute/index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                AI + GE = ?
+            </a></li>
+
+            <li><a id="links" class="slink" href="./references/index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Sources
+            </a></li>
+        </ul>
+    </div>
+    
+    <section class="banner">
+
+        <header>
+            <h2 class="logo">YO FELLAS !</h2>
+            <div class="toggle" onclick="toggleMenu();" ></div>
+        </header>
+
+        <video src="./YouCut_20231103_201917093.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>L'IA, l'Editeur Génial, Crée notre Idéal :</h2>
+            <h3>Rêve ou Cauchemar ?</h3>
+            <p>
+                Dans l'IA et l'ADN, un destin à sculpter, <br>
+                Rêve éthéré ou cauchemar à conjurer, <br>
+                Le choix divin ou le risque à oser, <br>
+                L'idéal et l'effroi, dans l'ombre à déchiffrer.
+            </p>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var banner = document.querySelector('.banner');
+            menuToggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
